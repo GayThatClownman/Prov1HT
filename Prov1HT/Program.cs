@@ -6,7 +6,7 @@ namespace Prov1HT
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
         }
     }
 }
