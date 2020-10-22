@@ -6,7 +6,9 @@ namespace Prov1HT
     {
         static void Main(string[] args)
         {
-            
+            Book b1 = new Book();
+
+            Console.ReadLine();
         }
     }
 }

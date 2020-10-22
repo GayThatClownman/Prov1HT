@@ -16,6 +16,7 @@ namespace Prov1HT
         //Konstruktoren för klassen "Book", som slumpar variablerna som efterfrågades i uppgiften.
         public Book()
         {
+            //Vid tester är det vissa problem med denna metod som jag själv inte kan tolka.
             actualValue = generator.Next(20, 150);
             rarity = generator.Next(10);
 
@@ -34,6 +35,7 @@ namespace Prov1HT
 
         }   
 
+        //Skriver ut information om boken.
         public void PrintInfo()
         {
             System.Console.WriteLine("Name: " + name);
@@ -43,6 +45,7 @@ namespace Prov1HT
 
         }
 
+        //Beräknar värdet utifrån de olika kriterier uppgiften frågar efter. Gör ett slumpat procenttal som multipliceras med värdet.
         public int Evaluate()
         {
             int correctPrice;
